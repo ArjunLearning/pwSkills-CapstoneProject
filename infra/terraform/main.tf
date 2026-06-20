@@ -2,12 +2,12 @@ terraform {
   required_version = ">= 1.5.0"
 
   backend "s3" {
-    bucket         = "sid07devops-accelerator-platform-tf-state"
-    key            = "global/devops-accelerator/terraform.tfstate"
-    region         = "us-east-1"
-    dynamodb_table = "devops-accelerator-tf-locker"
-    encrypt        = true
-  }
+  bucket         = "devops-accelerator-platform-tf-state-arjun-229746429766"
+  key            = "global/devops-accelerator/terraform.tfstate"
+  region         = "us-east-1"
+  dynamodb_table = "devops-accelerator-tf-locker"
+  encrypt        = true
+ }
 }
 
 provider "aws" {

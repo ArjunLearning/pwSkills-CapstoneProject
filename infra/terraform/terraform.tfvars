@@ -1,7 +1,8 @@
-aws_region         = "us-east-1"
-upload_bucket_name = "srv09876efghj876rhupload-accelerator-frontend-hosting-bucket"
+aws_region = "us-east-1"
 
-frontend_bucket_name     = "srv09876efghj876rh-accelerator-frontend-hosting-bucket"
-cloudfront_price_class   = "PriceClass_100"
+upload_bucket_name   = "arjun-upload-bucket-229746429766"
+frontend_bucket_name = "arjun-frontend-bucket-229746429766"
 
-notification_email = "siddharth.sharma_consultant@pw.live"
+cloudfront_price_class = "PriceClass_100"
+
+notification_email = "arjun.jagdishsaran1997@gmail.com"
